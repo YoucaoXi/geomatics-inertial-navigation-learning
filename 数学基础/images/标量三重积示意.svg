@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 410" role="img" aria-labelledby="title desc">
+  <title id="title">标量三重积示意</title>
+  <desc id="desc">三个向量 a、b、c 张成平行六面体，其体积为标量三重积的绝对值。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M1 1 L8 4.5 L1 8" fill="none" stroke="#244364" stroke-width="1.6"/>
+    </marker>
+  </defs>
+  <rect width="640" height="410" fill="#ffffff"/>
+  <polygon points="105,315 350,345 490,245 245,215" fill="#c8e1ee" fill-opacity="0.5" stroke="#86a9bb" stroke-width="2"/>
+  <polygon points="105,315 245,215 245,75 105,175" fill="#cfe7da" fill-opacity="0.5" stroke="#86a9bb" stroke-width="2"/>
+  <polygon points="245,215 490,245 490,105 245,75" fill="#e6d9ef" fill-opacity="0.4" stroke="#86a9bb" stroke-width="2"/>
+  <path d="M105 175 L350 205 L490 105 M350 205 L350 345" fill="none" stroke="#86a9bb" stroke-width="2" stroke-dasharray="7 6"/>
+  <circle cx="105" cy="315" r="5" fill="#244364"/>
+  <g fill="none" stroke="#244364" stroke-width="4" marker-end="url(#arrow)">
+    <path d="M105 315 L345 344"/>
+    <path d="M105 315 L240 218"/>
+    <path d="M105 315 L105 178"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" fill="#244364">
+    <text x="355" y="355">a</text>
+    <text x="245" y="215">b</text>
+    <text x="90" y="166">c</text>
+  </g>
+  <text x="105" y="390" font-family="Arial, sans-serif" font-size="16" fill="#526578">体积 = |(a × b) · c|</text>
+</svg>
